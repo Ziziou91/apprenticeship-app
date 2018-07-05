@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Convert number to reversed array of digits</title>
+    <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../main.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+    <nav>
+		<img src='../logo.png' />
+	</nav>
+	<h1>&lt;Northcoders Entry Challenge/&gt;</h1>
+	<h2>Question 4 - Convert number to reversed array of digits</h2>
+
+    <p style="font-size: 20px"><strong>Given a random number n, return the digits of this number within an array in reverse order.</strong></p>
+    <p><strong>For example:</strong></p>
+    <p>Given  <strong>348597 => digitise(348597)</strong>   will return  <strong>[7,9,5,8,4,3]</strong> .</p>
+    <p>Given  <strong>12345 => digitise(12345)</strong>   will return  <strong>[5,4,3,2,1]</strong> .</p>
+    <p>You can assume that n will always be a positive number.</p>
+    <div id="mocha"></div>
+
+    <script src="https://cdn.rawgit.com/jquery/jquery/2.1.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/Automattic/expect.js/0.3.1/index.js"></script>
+    <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
+
+    <script>mocha.setup('bdd')</script>
+    <script src='main.js'></script>
+    <script src='spec/main.spec.js'></script>
+    <script>
+        mocha.checkLeaks();
+        mocha.globals(['jQuery']);
+        mocha.run();
+    </script>
+</body>
+</html>

@@ -8,9 +8,10 @@ describe('squareNumber', function () {
     it('returns the square of 9', function () {
         expect(squareNumber(9)).to.equal(81);
     })
-    it('returns the square of random number', () => {
-        const randNum = Math.round(Math.random() * 100)
-        const randSquare = Math.pow(randNum, 2);
-        expect(squareNumber(randNum)).to.equal(randSquare)
+    it('returns the square of 15', function () {
+        expect(squareNumber(15)).to.equal(225);
+    })
+    it('returns the square of 20', function () {
+        expect(squareNumber(20)).to.equal(400);
     })
 })
