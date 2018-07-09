@@ -1,3 +1,3 @@
-function typeValidation(variable, number){
+function typeValidation(variable, type){
     //YOUR CODE HERE
 }    
