@@ -1,5 +1,4 @@
 describe('countChars', function () {
-    describe('countChars function', function () {
         it('should be a function', function () {
             expect(countChars).to.be.a('function');
         });
@@ -18,5 +17,4 @@ describe('countChars', function () {
         it('should return the correct number when given a longer string a char', function () {
             expect(countChars('octopus pie is quite delicious but probably not environmentally sustainable', 's')).to.equal(5);
         });      
-    });
 });

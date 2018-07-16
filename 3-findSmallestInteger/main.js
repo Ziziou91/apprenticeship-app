@@ -1,3 +1,3 @@
-function findSmallestInteger(arr) {
+function findSmallestInteger(array) {
     //YOUR CODE HERE
 }

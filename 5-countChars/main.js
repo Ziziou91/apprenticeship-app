@@ -1,3 +1,3 @@
-function countChars(str, char) {
+function countChars(string, character) {
     //YOUR CODE HERE
 }

@@ -1,3 +1,3 @@
-function digitise(n) {
+function digitise(number) {
     //YOUR CODE HERE
 }
